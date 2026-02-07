@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shahad Tech Solutions | Blog</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>Shahad Tech Solutions</span></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="solutions.html">Systems & Solutions</a>
+      <a href="marketing.html">Tech Marketing</a>
+      <a href="portfolio.html">Work</a>
+      <a href="about.html">About</a>
+      <a class="active" href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="btn" type="button" onclick="toggleLang()">EN / عربي</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Blog</h2>
+    <div class="grid">
+      <div class="item"><h3>Why permissions matter</h3><p class="small">4 min</p><p>Less errors, faster decisions.</p></div>
+      <div class="item"><h3>3 weekly reports</h3><p class="small">5 min</p><p>Sales, inventory, collections.</p></div>
+      <div class="item"><h3>A landing page that converts</h3><p class="small">6 min</p><p>Problem → Solution → Proof → CTA.</p></div>
+    </div>
+
+    <div style="margin-top:14px">
+      <a class="btn" href="https://wa.me/966550164080" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container row">
+    <div>© <span id="y"></span> Shahad Tech Solutions</div>
+    <div class="small">shahadtech.sa</div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="../assets/lang.js"></script>
+</body>
+</html>
