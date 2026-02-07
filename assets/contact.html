@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شهد حلول تقنية | تواصل معنا</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>شهد حلول تقنية</span></a>
+    <nav class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="services.html">خدماتنا</a>
+      <a href="solutions.html">الأنظمة والحلول</a>
+      <a href="marketing.html">التسويق التقني</a>
+      <a href="portfolio.html">أعمالنا</a>
+      <a href="about.html">من نحن</a>
+      <a href="blog.html">المدونة</a>
+      <a class="active" href="contact.html">تواصل</a>
+    </nav>
+    <button class="btn" type="button" onclick="toggleLang()">EN / عربي</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container split">
+    <div class="card form">
+      <h2>تواصل معنا</h2>
+      <p>اكتبي طلبك هنا، وبنرجع لك بخطة مختصرة.</p>
+
+      <form action="mailto:you@example.com" method="post" enctype="text/plain">
+        <div class="grid2">
+          <div>
+            <label class="small">الاسم</label>
+            <input class="input" name="name" placeholder="اسمك" required />
+          </div>
+          <div>
+            <label class="small">الجوال</label>
+            <input class="input" name="phone" placeholder="05xxxxxxxx" />
+          </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <label class="small">الخدمة المطلوبة</label>
+          <select class="input" name="service">
+            <option>تطوير موقع</option>
+            <option>ERP (صلاحيات/تقارير/تشغيل)</option>
+            <option>أتمتة وربط أنظمة</option>
+            <option>تسويق تقني</option>
+            <option>استشارة تقنية</option>
+            <option>حل متكامل</option>
+          </select>
+        </div>
+
+        <div style="margin-top:12px">
+          <label class="small">وصف مختصر</label>
+          <textarea name="details" placeholder="اكتبي تفاصيل بسيطة عن احتياجك"></textarea>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn primary" type="submit">إرسال</button>
+          <a class="btn" href="https://wa.me/966550164080" target="_blank" rel="noopener">تواصل واتساب</a>
+        </div>
+
+        <p class="small">بدّلي you@example.com لإيميلك الحقيقي.</p>
+      </form>
+    </div>
+
+    <div class="card quote">
+      <h3>بيانات سريعة</h3>
+      <p><strong>الدومين:</strong> shahadtech.sa</p>
+      <p><strong>واتساب:</strong> ٠٥٥٠١٦٤٠٨٠</p>
+      <hr>
+      <div class="notice">✅ تقدري تحطي Google Form بدل mailto إذا تبغي استقبال طلبات داخل الموقع.</div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container row">
+    <div>© <span id="y"></span> شهد حلول تقنية</div>
+    <div class="small">shahadtech.sa</div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="assets/lang.js"></script>
+</body>
+</html>
