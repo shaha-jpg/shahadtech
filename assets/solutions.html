@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شهد حلول تقنية | الأنظمة والحلول</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>شهد حلول تقنية</span></a>
+    <nav class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="services.html">خدماتنا</a>
+      <a class="active" href="solutions.html">الأنظمة والحلول</a>
+      <a href="marketing.html">التسويق التقني</a>
+      <a href="portfolio.html">أعمالنا</a>
+      <a href="about.html">من نحن</a>
+      <a href="blog.html">المدونة</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+    <button class="btn" type="button" onclick="toggleLang()">EN / عربي</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <span class="badge">تشغيل + تنظيم + تقارير</span>
+    <h2>الأنظمة والحلول</h2>
+    <p>حلول عملية تساعدك تتحكم بالصلاحيات، وتطلع تقارير، وتقلل الفوضى.</p>
+
+    <div class="grid">
+      <div class="item">
+        <div class="icon">P</div>
+        <h3>صلاحيات وأدوار</h3>
+        <p>كل موظف يشوف اللي يخصه فقط — ويشتغل بأمان ووضوح.</p>
+        <ul><li>أدوار حسب القسم</li><li>صلاحيات على الشاشات والتقارير</li><li>تتبع نشاط المستخدم</li></ul>
+      </div>
+
+      <div class="item">
+        <div class="icon">R</div>
+        <h3>تقارير تشغيل</h3>
+        <p>تقارير تخدم القرار: مبيعات، مخزون، تحصيل، إنتاجية.</p>
+        <ul><li>KPI ولوحات متابعة</li><li>تقارير يومية/أسبوعية</li><li>تصدير PDF/Excel (حسب النظام)</li></ul>
+      </div>
+
+      <div class="item" id="automation">
+        <div class="icon">A</div>
+        <h3>الأتمتة</h3>
+        <p>خلّي النظام يسوي الشغل المتكرر بدالك.</p>
+        <ul><li>إشعارات تلقائية</li><li>اعتمادات وموافقات</li><li>تذاكر/طلبات داخلية</li></ul>
+      </div>
+    </div>
+
+    <div style="margin-top:14px" class="card quote">
+      <h3>نبدأ بكشف سريع؟</h3>
+      <p>نقترح 3 تحسينات سريعة “تفرق” من أول أسبوع.</p>
+      <a class="btn primary" href="contact.html">احجز كشف</a>
+      <a class="btn" href="https://wa.me/966550164080" target="_blank" rel="noopener">واتساب</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container row">
+    <div>© <span id="y"></span> شهد حلول تقنية</div>
+    <div class="small">shahadtech.sa</div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="assets/lang.js"></script>
+</body>
+</html>
