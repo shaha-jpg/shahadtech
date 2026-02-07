@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شهد حلول تقنية | المدونة</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>شهد حلول تقنية</span></a>
+    <nav class="links">
+      <a href="index.html">الرئيسية</a>
+      <a href="services.html">خدماتنا</a>
+      <a href="solutions.html">الأنظمة والحلول</a>
+      <a href="marketing.html">التسويق التقني</a>
+      <a href="portfolio.html">أعمالنا</a>
+      <a href="about.html">من نحن</a>
+      <a class="active" href="blog.html">المدونة</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+    <button class="btn" type="button" onclick="toggleLang()">EN / عربي</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <span class="badge">محتوى بسيط لصاحب البزنس</span>
+    <h2>المدونة</h2>
+    <p>حطي هنا مقالات عن: الصلاحيات، التقارير، الأتمتة، ERP.</p>
+
+    <div class="grid">
+      <div class="item"><h3>ليش الصلاحيات أهم من الكماليات؟</h3><p class="small">مقال · 4 دقائق</p><p>تقليل أخطاء وتسريع قرار.</p></div>
+      <div class="item"><h3>3 تقارير لازم أسبوعيًا</h3><p class="small">مقال · 5 دقائق</p><p>مبيعات، مخزون، تحصيل.</p></div>
+      <div class="item"><h3>صفحة هبوط تبيع</h3><p class="small">مقال · 6 دقائق</p><p>مشكلة → حل → إثبات → CTA.</p></div>
+    </div>
+
+    <div style="margin-top:14px">
+      <a class="btn" href="https://wa.me/966550164080" target="_blank" rel="noopener">واتساب</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container row">
+    <div>© <span id="y"></span> شهد حلول تقنية</div>
+    <div class="small">shahadtech.sa</div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="assets/lang.js"></script>
+</body>
+</html>
