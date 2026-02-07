@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shahad Tech Solutions | Contact</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span>Shahad Tech Solutions</span></a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="solutions.html">Systems & Solutions</a>
+      <a href="marketing.html">Tech Marketing</a>
+      <a href="portfolio.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <button class="btn" type="button" onclick="toggleLang()">EN / عربي</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container split">
+    <div class="card form">
+      <h2>Contact</h2>
+      <p>Send your request — we’ll reply with a short plan.</p>
+
+      <form action="mailto:you@example.com" method="post" enctype="text/plain">
+        <div class="grid2">
+          <div><label class="small">Name</label><input class="input" name="name" placeholder="Your name" required /></div>
+          <div><label class="small">Phone</label><input class="input" name="phone" placeholder="+966..." /></div>
+        </div>
+
+        <div style="margin-top:12px">
+          <label class="small">Service</label>
+          <select class="input" name="service">
+            <option>Website</option>
+            <option>ERP (roles/reports/setup)</option>
+            <option>Automation & integrations</option>
+            <option>Technical marketing</option>
+            <option>Consulting</option>
+            <option>Full solution</option>
+          </select>
+        </div>
+
+        <div style="margin-top:12px">
+          <label class="small">Brief details</label>
+          <textarea name="details" placeholder="Tell us what you need"></textarea>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+          <button class="btn primary" type="submit">Send</button>
+          <a class="btn" href="https://wa.me/966550164080" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+
+        <p class="small">shahadabdu268@gmail.com.</p>
+      </form>
+    </div>
+
+    <div class="card quote">
+      <h3>Quick info</h3>
+      <p><strong>Domain:</strong> shahadtech.sa</p>
+      <p><strong>WhatsApp:</strong> 0550164080</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container row">
+    <div>© <span id="y"></span> Shahad Tech Solutions</div>
+    <div class="small">shahadtech.sa</div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="../assets/lang.js"></script>
+</body>
+</html>
